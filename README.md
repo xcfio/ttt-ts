@@ -1,27 +1,27 @@
-# ttt-js
+# ttt-ts
 
-`ttt-js` is a library for creating and managing a Tic-Tac-Toe game. It provides functions to determine the best move using the minimax algorithm, check the game status, and manage the game board.
+`ttt-ts` is a TypeScript library for creating and managing a Tic-Tac-Toe game. It provides functions to determine the best move using the minimax algorithm, check the game status, and manage the game board.
 
 ## Installation
 
-You can install the `ttt-js` package using npm, yarn, or pnpm.
+You can install the `ttt-ts` package using npm, yarn, or pnpm.
 
 ### npm
 
 ```bash
-npm install ttt-js
+npm install ttt-ts
 ```
 
 ### yarn
 
 ```bash
-yarn add ttt-js
+yarn add ttt-ts
 ```
 
 ### pnpm
 
 ```bash
-pnpm add ttt-js
+pnpm add ttt-ts
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ pnpm add ttt-js
 ### JavaScript
 
 ```javascript
-const { TicTacToe, Status } = require("ttt-js")
+const { TicTacToe, Status } = require("ttt-ts")
 
 const board = [
     [null, "x", "o"],
@@ -56,7 +56,7 @@ console.log(result)
 ### TypeScript
 
 ```typescript
-import { TicTacToe, TicTacToeBoard, Status } from "ttt-js"
+import { TicTacToe, TicTacToeBoard, Status } from "ttt-ts"
 
 const board: TicTacToeBoard = [
     [null, "x", "o"],
