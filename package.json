@@ -1,9 +1,9 @@
 {
-    "name": "ttt-js",
+    "name": "ttt-ts",
     "version": "0.0.1",
     "description": "A TypeScript library for implementing and playing Tic-Tac-Toe with functions for game status, moves, and AI using the minimax algorithm.",
     "author": "SoftwareX Plus",
-    "homepage": "https://github.com/softwarexplus/ttt-js#readme",
+    "homepage": "https://github.com/softwarexplus/ttt-ts#readme",
     "type": "commonjs",
     "main": "out/index.js",
     "license": "Apache-2.0",
@@ -14,10 +14,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/softwarexplus/ttt-js"
+        "url": "https://github.com/softwarexplus/ttt-ts"
     },
     "bugs": {
-        "url": "https://github.com/softwarexplus/ttt-js/issues"
+        "url": "https://github.com/softwarexplus/ttt-ts/issues"
     },
     "funding": {
         "type": "patreon",
