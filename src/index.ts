@@ -11,7 +11,7 @@ export type TicTacToeBoard = [[Cell, Cell, Cell], [Cell, Cell, Cell], [Cell, Cel
 /**
  * Enum for game status.
  */
-export const enum Status {
+export enum Status {
     Continue,
     Draw,
     X,
@@ -46,7 +46,7 @@ export const Placeholder: TicTacToeBoard = [
  * Finds the next move for the bot on the given TicTacToe board.
  * @param {TicTacToeBoard} board - The current state of the TicTacToe board.
  * @param {"x" | "o"} bot - The bot's marker ("x" or "o").
- * @param {boolean} [strict=true] - If true, makes a random move; otherwise, uses minimax to find the best move.
+ * @param {boolean} [strict=true] - If false, makes a random move; otherwise, uses minimax to find the best move.
  * @returns {FindMove} - The result of the move.
  */
 export function TicTacToe(board: TicTacToeBoard, bot: "x" | "o", strict: boolean = true): FindMove {
@@ -54,8 +54,7 @@ export function TicTacToe(board: TicTacToeBoard, bot: "x" | "o", strict: boolean
     if (winner) return { status: winner === "x" ? Status.X : Status.O, board }
 
     if (!isMovesLeft(board)) return { status: Status.Draw, board }
-
-    const move = strict ? findRandomMove(board) : findBestMove(board, bot, bot === "x" ? "o" : "x")
+    const move = strict ? findBestMove(board, bot, bot === "x" ? "o" : "x") : findRandomMove(board)
     board[move.row][move.col] = bot
 
     const updatedWinner = checkWinner(board)
