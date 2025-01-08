@@ -5,3 +5,5 @@ src/
 .prettierignore
 .prettierrc
 tsconfig.json
+*.test.js
+*.test.d.ts

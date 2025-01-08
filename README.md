@@ -1,5 +1,12 @@
 # ttt-ts
 
+[![Discord](https://img.shields.io/discord/1211530334458617866?style=flat&logo=discord&logoColor=ffffff&color=5865f2)](https://discord.gg/FaCCaFM74Q)
+[![GitHub Action](https://github.com/softwarexplus/ttt-ts/actions/workflows/test.yaml/badge.svg)](https://github.com/softwarexplus/ttt-ts/actions)
+[![NPM Version](https://img.shields.io/npm/v/ttt-ts)](https://www.npmjs.com/package/ttt-ts)
+[![NPM Downloads](https://img.shields.io/npm/dy/ttt-ts)](https://www.npmjs.com/package/ttt-ts)
+[![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/ttt-ts)](https://www.npmjs.com/package/ttt-ts)
+[![NPM License](https://img.shields.io/npm/l/ttt-ts)](https://github.com/softwarexplus/ttt-ts/blob/main/LICENSE)
+
 `ttt-ts` is a TypeScript library for creating and managing a Tic-Tac-Toe game. It provides functions to determine the best move using the minimax algorithm, check the game status, and manage the game board.
 
 ## Installation
