@@ -158,7 +158,7 @@ export const Placeholder: TicTacToeBoard = [
 Finds the next move for the bot on the given TicTacToe board.
 
 ```typescript
-function TicTacToe(board: TicTacToeBoard, bot: "x" | "o", strict: boolean = false): FindMove
+function TicTacToe(board: TicTacToeBoard, bot: "x" | "o", strict: boolean = true): FindMove
 ```
 
 **Parameters:**
